@@ -11,7 +11,6 @@ export default function Layout() {
 
     const activeLi = (link) => {
         setActive(link);
-        setSidebarShow(link);
     };
 
     const getClassName = (link) => {
